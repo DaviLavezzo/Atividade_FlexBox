@@ -3,22 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #0f0f1a;
   color: white;
   line-height: 1.6;}
-
-
 .container {
   width: 90%;
   max-width: 1200px;
   margin: auto;
 }
-
-
 header {
   background: #121225;
   padding: 20px 0;
@@ -27,20 +21,17 @@ header {
   top: 0;
   z-index: 1000;
 }
-
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .logo {
   font-size: 2rem;
   font-weight: bold;
   color: #a855f7;
   text-shadow: 0 0 10px #a855f7;
 }
-
 nav a {
   color: white;
   text-decoration: none;
@@ -48,44 +39,36 @@ nav a {
   transition: 0.3s;
   font-weight: bold;
 }
-
 nav a:hover {
   color: #a855f7;
 }
-
-
 .hero {
   height: 90vh;
   background: linear-gradient(
       rgba(15, 15, 26, 0.8),
       rgba(15, 15, 26, 0.8)
     ),
-    url("https://images.unsplash.com/photo-1542751110-97427bbecf20?w=1400")
+    url("assets/fundo.jpg")
       center/cover no-repeat;
-
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-
 .hero-content {
   max-width: 700px;
 }
-
 .hero h1 {
   font-size: 4rem;
   margin-bottom: 20px;
   color: #ffffff;
   text-shadow: 0 0 20px #7b2cff;
 }
-
 .hero p {
   font-size: 1.3rem;
   margin-bottom: 30px;
   color: #d1d1d1;
 }
-
 .btn-primary {
   padding: 15px 35px;
   border: none;
@@ -98,31 +81,24 @@ nav a:hover {
   font-weight: bold;
   box-shadow: 0 0 15px #7b2cff;
 }
-
 .btn-primary:hover {
   background: #a855f7;
   transform: scale(1.05);}
-
 .section-title {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 50px;
   color: #a855f7;
 }
-
-
-
 .produtos {
   padding: 80px 0;
 }
-
 .cards {
   display: flex;
   gap: 30px;
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .card {
   background: #1a1a2e;
   width: 320px;
@@ -132,54 +108,44 @@ nav a:hover {
   border: 1px solid #7b2cff;
   box-shadow: 0 0 15px rgba(123, 44, 255, 0.2);
 }
-
 .card:hover {
   transform: translateY(-10px);
   box-shadow: 0 0 25px #7b2cff;
 }
-
 .card img {
   width: 100%;
   height: 220px;
   object-fit: cover;
 }
-
 .card-content {
   padding: 20px;
 }
-
 .card-content h3 {
   margin-bottom: 10px;
   color: #ffffff;}
-
 .card-content p {
   color: #cfcfcf;
   margin-bottom: 15px;
 }
-
 .price {
   color: #00ff99;
   font-weight: bold;}
-
 .sobre {
   padding: 80px 0;
   background: #121225;
 }
-
 .sobre-flex {
   display: flex;
   align-items: center;
   gap: 50px;
   flex-wrap: wrap;
 }
-
 .sobre-imagem img {
   width: 100%;
   max-width: 500px;
   border-radius: 15px;
   border: 2px solid #7b2cff;
 }
-
 .sobre-texto {
   flex: 1;}
 .sobre-texto h2 {
@@ -198,7 +164,6 @@ nav a:hover {
   margin-bottom: 10px;
   color: #ffffff;
 }
-
 .footer {
   background: #0a0a14;
   padding: 50px 0 20px;
@@ -222,7 +187,6 @@ nav a:hover {
   margin-top: 40px;
   color: #777;
 }
-
 @media (max-width: 768px) {
   .nav {
     flex-direction: column;
